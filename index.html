@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио MICE-проектов</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="portfolio-container">
+        <div class="portrait-section">
+            <img src="assets/portrait.jpg" alt="Портрет">
+        </div>
+
+        <div class="diamond-grid">
+            <div class="diamond gallery-item" data-project-id="project1">
+                <img src="assets/project1.jpg" alt="Проект 1">
+            </div>
+            <div class="diamond color-yellow"></div>
+            <div class="diamond color-red"></div>
+            <div class="diamond color-blue"></div>
+        </div>
+
+        <div id="project-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <div class="project-details">
+                    </div>
+            </div>
+        </div>
+
+    </main>
+
+    <nav class="footer-nav">
+        <a href="assets/resume.pdf" download class="nav-button">Резюме</a>
+        <a href="#" class="nav-button page-link">Incentivgs</a>
+        <a href="#" class="nav-button page-link">Conferences</a>
+        <a href="#" class="nav-button page-link">Exhibitions</a>
+        <a href="https://t.me/your-telegram-id" target="_blank" class="nav-button">Telegram</a>
+        <a href="#" class="nav-button" id="contacts-button">Контакты</a>
+    </nav>
+
+    <div id="contacts-popup" class="contacts-popup">
+        <p>Телефон: +7 (XXX) XXX-XX-XX</p>
+        <p>Почта: email@example.com</p>
+        <p>WhatsApp: +7 (XXX) XXX-XX-XX</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
